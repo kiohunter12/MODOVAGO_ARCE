@@ -50,6 +50,7 @@ public class EjerciciosR {
         /*System.out.println("imprime while"); imprimirWhileN1_10();
         System.out.println("imprime do while"); imprimirDowhileN1_20();
         System.out.println("imprime for"); imprimirForN1_20();*/
+        
 
         imprimirnombre();
     
