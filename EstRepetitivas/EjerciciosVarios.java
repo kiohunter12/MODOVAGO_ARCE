@@ -8,7 +8,7 @@ public class EjerciciosVarios {
         int resultado=1;
         if (numero>1){
             for (int i = 1; i <= numero; i++){
-                resultado=resultado*1; 
+                resultado=resultado*i; 
             }
         }
         return resultado;
@@ -21,8 +21,8 @@ public class EjerciciosVarios {
         System.out.println("ingrese un numero");
         int num=leerT.nextInt();
         System.out.println(factorialN(num));
-        for (int i = 1; i <= num; i++){
-            System.out.println("Factorial de"+ i+"es:"+factorialN(i)); 
+        for (int i = 0; i <= num; i++){
+            System.out.println("Factorial de" + i+ "es:"+factorialN(i)); 
         }
         
     }
