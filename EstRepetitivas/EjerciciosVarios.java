@@ -18,7 +18,12 @@ public class EjerciciosVarios {
 
 
     public static void main(String[] args) {
-        System.out.println(factorialN(5));
+        System.out.println("ingrese un numero");
+        int num=leerT.nextInt();
+        System.out.println(factorialN(num));
+        for (int i = 1; i <= num; i++){
+            System.out.println("Factorial de"+ i+"es:"+factorialN(i)); 
+        }
         
     }
 
